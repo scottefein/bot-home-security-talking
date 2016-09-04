@@ -1,0 +1,9 @@
+{
+  "agentUrl": "https://nexus-dev-ause1-all.symphony.com:8444/agent",
+  "sessionAuthUrl": "https://nexus-dev-ause1-all.symphony.com:8444/sessionauth/v1/authenticate",
+  "keyManagerAuthUrl": "https://nexus-dev-ause1-all.symphony.com:8444/keyauth/v1/authenticate",
+  "podUrl": "https://nexus.symphony.com",
+  "keyFilePath": "resources/bot.user1.pem",
+  "certFilePath": "resources/bot.user1-cert.pem",
+  "nytApiKey": ""
+}

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+cd /var/lib/symphonybot/
+rm -rf homeSecurityFIFO
+mkfifo homeSecurityFIFO
+
+cat > homeSecurityFIFO &
+mypid=$!
+
+homesecurity private/corp/corp.json < homeSecurityFIFO &
+
